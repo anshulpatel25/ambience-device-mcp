@@ -1,5 +1,5 @@
 [project]
-name = "rpi5-dht11-mcp"
+name = "ambience-device-mcp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,7 +8,7 @@ dependencies = [
     "adafruit-blinka>=8.58.1",
     "adafruit-circuitpython-dht>=4.0.8",
     "mcp>=1.9.3",
-    "rpi-lgpio>=0.6",
+    # "rpi-lgpio>=0.6",
 ]
 
 [dependency-groups]
